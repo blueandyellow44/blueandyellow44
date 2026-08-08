@@ -18,7 +18,6 @@ Most of what I build is private. This is the public slice.
 I run Claude Code against a stack of open skill marketplaces. These are the ones I actually have installed:
 
 - [claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills) — Jeremy Longshore's catalog, the largest one I use
-- [team-intent-claude-plugins](https://github.com/intent-solutions-io/team-intent-claude-plugins) — Intent Solutions' internal set
 - [benai-skills](https://github.com/naveedharri/benai-skills) — the BenAI community marketplace
 - [bobs-big-brain-plugin](https://github.com/jeremylongshore/bobs-big-brain-plugin) — governed shared memory across a team
 - [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)

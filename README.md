@@ -1,6 +1,6 @@
 ## Max Sheahan
 
-I build multi-agent systems, skills, and live products on Claude. I taught middle-school English before this, and I started by vibe-coding a classroom tool I did not fully understand. Now most of my work, and a fair amount of my life, runs through a system I put together on Claude Code and Claude Cowork.
+Builder and teacher. I build one specific thing for one specific person, then teach them to run it. I am also Head of Education at [Intent Solutions](https://intentsolutions.io). I taught middle-school English before this, and I started by vibe-coding a classroom tool I did not fully understand. Now most of my work, and a fair amount of my life, runs through a system of my own plugins and skills on Claude Code.
 
 Most of what I build is private. This is the public slice.
 
@@ -8,24 +8,31 @@ Most of what I build is private. This is the public slice.
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [Wally Walks](https://wallywalks.app) | A hand-drawn walking guide to San Francisco: a growing map of stairways, views, parks, and neighborhood paths | Live |
-| [LITMUS](https://litmustimes.com) ([code](https://github.com/blueandyellow44/litmus)) | A daily news reader that groups coverage into stories and shows how calmly or hotly each outlet told it, built on Cloudflare | Live |
-| [claude-skills](https://github.com/blueandyellow44/claude-skills) | My Claude skills and plugins, installable as a marketplace | Public |
+| [Wally Walks](https://wallywalks.app) | A hand-drawn walking guide to San Francisco, a growing map of stairways, views, parks, and neighborhood paths. Also runs inside chat as an MCP app | Live |
+| [LITMUS](https://litmustimes.com) ([code](https://github.com/blueandyellow44/litmus)) | A daily news reader that groups coverage into stories and shows how calmly or hotly each outlet told it | Live |
 | [Literary Engine](https://github.com/blueandyellow44/literary-engine) | A multi-agent pipeline for long-form fiction, from extraction to drafting to judging | Case study |
 | [Voice Gate](https://github.com/blueandyellow44/voice-gate) | A diagnostic that checks whether a draft matches a target voice profile | Public |
 
-### What I build on
+### My plugins and skills
 
-I run Claude Code against a stack of open skill marketplaces. These are the ones I actually have installed:
+I write most of the tooling I use. These are the plugin sets I have installed and maintain myself.
 
-- [claude-code-plugins-plus-skills](https://github.com/jeremylongshore/claude-code-plugins-plus-skills), Jeremy Longshore's catalog, the largest one I use
-- [benai-skills](https://github.com/naveedharri/benai-skills), the BenAI community marketplace
-- [bobs-big-brain-plugin](https://github.com/jeremylongshore/bobs-big-brain-plugin), governed shared memory across a team
-- [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
-- [cloudflare/skills](https://github.com/cloudflare/skills)
-- [braintrust-claude-plugin](https://github.com/braintrustdata/braintrust-claude-plugin)
+| Plugin set | What it does |
+| --- | --- |
+| Second Brain | Runs my Obsidian vault as an operating system. Daily logs, agenda, weekly review, session wrap, decision records, and capture of every Claude session |
+| Voice | Builds evidence-based voice profiles from a corpus, then drafts, audits, and revises against them |
+| Literary Engine | The book-writing engine behind the case study above, fronted by one launcher |
+| Secure Launch | A security pass before anything ships. Attack-surface map, OWASP ASVS checks, secret and dependency scans, and a gate that refuses to deploy on an open finding |
+| MCP Apps | Takes an app from a one-page PRD to a tested Cloudflare Worker that runs inside a chat |
+| Skill Forge | Builds and grades skills, and researches a person into a sourced brief |
+| Docgen | Documents and PDFs that look designed rather than generated |
+| YouTube Recut | Rebuilds a tighter edit from raw footage |
 
-My own set is at [claude-skills](https://github.com/blueandyellow44/claude-skills).
+Most of these depend on my own vault and stay private. The ones that stand alone are public at [claude-skills](https://github.com/blueandyellow44/claude-skills), installable as a marketplace, with voice, writing, and document toolkits.
+
+### Also in my setup
+
+I keep a few outside marketplaces installed alongside my own, including [Jeremy Longshore's plugin catalog](https://github.com/jeremylongshore/claude-code-plugins-plus-skills), [benai-skills](https://github.com/naveedharri/benai-skills), [cloudflare/skills](https://github.com/cloudflare/skills), and [Trail of Bits skills](https://github.com/trailofbits/skills).
 
 ### How I work
 
@@ -36,4 +43,3 @@ I try to share the process and not only the finished thing.
 ### Reach me
 
 - [maxsheahan.com](https://maxsheahan.com)
-

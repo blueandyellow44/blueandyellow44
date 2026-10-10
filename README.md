@@ -10,6 +10,7 @@ Most of what I build is private. This is the public slice.
 | --- | --- | --- |
 | [Wally Walks](https://wallywalks.app) | A hand-drawn walking guide to San Francisco, a growing map of stairways, views, parks, and neighborhood paths. Also runs inside chat as an MCP app | Live |
 | [LITMUS](https://litmustimes.com) ([code](https://github.com/blueandyellow44/litmus)) | A daily news reader that groups coverage into stories and shows how calmly or hotly each outlet told it | Live |
+| [LITMUS Live](https://github.com/blueandyellow44/litmus-meter) | A live meter for broadcast speech. It listens to a speech or a debate and moves a needle from proportionate to hyperbolic, one sentence at a time | Public |
 | [Literary Engine](https://github.com/blueandyellow44/literary-engine) | A multi-agent pipeline for long-form fiction, from extraction to drafting to judging | Case study |
 | [Voice Gate](https://github.com/blueandyellow44/voice-gate) | A diagnostic that checks whether a draft matches a target voice profile | Public |
 

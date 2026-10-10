@@ -43,4 +43,6 @@ I try to share the process and not only the finished thing.
 
 ### Reach me
 
+- [max@sheahan.ai](mailto:max@sheahan.ai)
+- [LinkedIn](https://www.linkedin.com/in/max-sheahan-8a7a6249/)
 - [maxsheahan.com](https://maxsheahan.com)

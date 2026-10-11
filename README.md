@@ -18,18 +18,21 @@ Most of what I build is private. This is the public slice.
 
 I write most of the tooling I use. These are the plugin sets I have installed and maintain myself.
 
-| Plugin set | What it does |
-| --- | --- |
-| Second Brain | Runs my Obsidian vault as an operating system. Daily logs, agenda, weekly review, session wrap, decision records, and capture of every Claude session |
-| Voice | Builds evidence-based voice profiles from a corpus, then drafts, audits, and revises against them |
-| Literary Engine | The book-writing engine behind the case study above, fronted by one launcher |
-| Secure Launch | A security pass before anything ships. Attack-surface map, OWASP ASVS checks, secret and dependency scans, and a gate that refuses to deploy on an open finding |
-| MCP Apps | Takes an app from a one-page PRD to a tested Cloudflare Worker that runs inside a chat |
-| Skill Forge | Builds and grades skills, and researches a person into a sourced brief |
-| Docgen | Documents and PDFs that look designed rather than generated |
-| YouTube Recut | Rebuilds a tighter edit from raw footage |
+| Plugin set | What it does | Public |
+| --- | --- | --- |
+| Second Brain | A session manager for a markdown vault. Daily logs, a session ledger, ruling capture, decision records, agenda, weekly review, and vault health checks | `second-brain` |
+| Voice | Builds evidence-based voice profiles from a corpus, then drafts, audits, and revises against them | `voice-toolkit`, `voice-gate`, `writing-toolkit` |
+| Secure Launch | A security pass before anything ships. Attack-surface map, secret and dependency scans, app and platform checks, and a gate that refuses to deploy on a failing or unknown finding | `secure-core` and five more |
+| City Walks workflow | The working kit behind the Wally Walks map, from drawing a landmark piece to deploying two sites | `city-walks-workflow` |
+| Docgen | A sourced brief on a person, and documents and PDFs that look designed rather than generated | `document-toolkit` |
+| YouTube Recut | Rebuilds a tighter edit from raw footage, with checks before any render is handed over | `youtube-recut` |
+| News scoring | Two scales for how a news article is written, the method behind LITMUS | `news-scoring` |
+| Literary Engine | The book-writing engine behind the case study above, fronted by one launcher | Private |
+| MCP Apps | Takes an app from a one-page PRD to a tested Cloudflare Worker that runs inside a chat | Private |
 
-Most of these depend on my own vault and stay private. The ones that stand alone are public at [claude-skills](https://github.com/blueandyellow44/claude-skills), installable as a marketplace, with voice, writing, and document toolkits.
+The public ones install from [claude-skills](https://github.com/blueandyellow44/claude-skills) as a marketplace, and the list with install lines is at [maxsheahan.com/skills](https://maxsheahan.com/skills). The public versions are exports with my own vault and projects taken out. The rest stay private.
+
+    /plugin marketplace add blueandyellow44/claude-skills
 
 ### Also in my setup
 

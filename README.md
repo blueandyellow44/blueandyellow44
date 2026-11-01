@@ -37,7 +37,7 @@ The public ones install from [claude-skills](https://github.com/blueandyellow44/
 
 ### Also in my setup
 
-I keep a few outside marketplaces installed alongside my own, including [Jeremy Longshore's plugin catalog](https://github.com/jeremylongshore/claude-code-plugins-plus-skills), [benai-skills](https://github.com/naveedharri/benai-skills), [cloudflare/skills](https://github.com/cloudflare/skills), and [Trail of Bits skills](https://github.com/trailofbits/skills).
+I keep a few outside marketplaces installed alongside my own, including [Jeremy Longshore's plugin catalog](https://github.com/jeremylongshore/tons-of-skills-marketplace), [benai-skills](https://github.com/naveedharri/benai-skills), [cloudflare/skills](https://github.com/cloudflare/skills), and [Trail of Bits skills](https://github.com/trailofbits/skills).
 
 ### How I work
 

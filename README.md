@@ -24,7 +24,7 @@ I write most of the tooling I use. These are the plugin sets I have installed an
 | Second Brain | A session manager for a markdown vault. Daily logs, a session ledger, ruling capture, decision records, agenda, weekly review, and vault health checks | `second-brain` |
 | Voice | Builds evidence-based voice profiles from a corpus, then drafts, audits, and revises against them | `voice-toolkit`, `voice-gate`, `writing-toolkit` |
 | Secure Launch | A security pass before anything ships. Attack-surface map, secret and dependency scans, app and platform checks, and a gate that refuses to deploy on a failing or unknown finding | `secure-core` and five more |
-| City Walks workflow | The working kit behind the Wally Walks map, from drawing a landmark piece to deploying two sites | `city-walks-workflow` |
+| City Walks workflow | The working kit behind the Wally Walks map, from drawing a landmark piece to deploying two sites | Private |
 | Docgen | A sourced brief on a person, and documents and PDFs that look designed rather than generated | `document-toolkit` |
 | YouTube Recut | Rebuilds a tighter edit from raw footage, with checks before any render is handed over | `youtube-recut` |
 | News scoring | Two scales for how a news article is written, the method behind LITMUS | `news-scoring` |
